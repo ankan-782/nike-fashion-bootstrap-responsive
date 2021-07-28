@@ -1,0 +1,303 @@
+/*-------------------
+------font styles----
+----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* --------------------
+-----common styles------
+------------------------- */
+
+.button-style {
+    border-radius: 0.6rem;
+    background-image: linear-gradient(#3D4FF3, #3543BC);
+}
+
+.border-radius {
+    border-radius: 1rem;
+}
+
+.box-shadow {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.bg-color {
+    background-color: #FFF9F4;
+}
+
+
+/* header section starts */
+
+.nav-title-color {
+    color: #FA804C;
+}
+
+.brand-title-color {
+    color: #FA804C;
+}
+
+.font-family-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.brand-section-height {
+    height: 100vh;
+}
+
+.brand-details {
+    width: 75%;
+}
+
+.brand-photo {
+    width: 50%;
+}
+
+.font-family-bebas-neue {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+}
+
+
+/* header section ends */
+
+/* casual shoe & formal shoe section starts */
+
+.shoes-section-height {
+    height: 100vh;
+}
+
+.card-price-properties {
+    color: #FA804C;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bg-color-card {
+    background-color: #F1F1F1;
+}
+
+.img-size {
+    height: 35vh;
+}
+/* casual shoe & formal shoe section ends */
+
+/* features section starts */
+.features-section-height {
+    height: 100vh;
+}
+
+.features-small-img-size {
+    width: 9vh;
+}
+
+.features-big-img-size {
+    width: 50%;
+}
+
+.features-content-size {
+    width: 50%;
+}
+
+.features-details-size {
+    width: 75%;
+}
+/* features section ends */
+
+/* footer section starts */
+
+/* footer section ends */
+
+/*----------------------------------
+-------- media queries---------- 
+-----------------------------------*/
+@media screen and (max-width: 1200px) {
+
+    /* header nav & brand section starts */
+    header {
+        margin-top: 94px;
+    }
+    .brand-section-height {
+        height: auto;
+    }
+    .brand-details {
+        width: 90%;
+    }
+    .brand-photo {
+        width: 100%;
+    }
+    /* header nav & brand section ends */
+
+    /* main casual shoe & formal shoe section starts */
+    .shoes-section-height {
+        height: auto;
+    }
+    .img-size {
+        height: 25vh;
+    }
+    /* main casual shoe & formal shoe section ends */
+
+    /* features section starts */
+    .features-section-height {
+        height: auto;
+    }
+    .features-small-img-size {
+        width: 5vh;
+    }
+    .features-content-size {
+        width: 40%;
+    }
+    .features-big-img-size {
+        width: 60%;
+    }
+    .features-details-size h3 {
+        font-size: 1.2rem;
+    }
+    /* features section starts */
+}
+
+@media screen and (max-width: 992px) {
+
+    /* header nav & brand section starts */
+    header {
+        margin-top: 88px;
+    }
+    .brand-section-height {
+        height: auto;
+    }
+    .brand-details {
+        width: 80%;
+    }
+    .brand-photo {
+        width: 100%;
+    }
+    /* header nav & brand section ends */
+
+    /* main casual shoe & formal shoe section starts */
+    .shoes-section-height {
+        height: auto;
+    }
+    .img-size {
+        height: 30vh;
+    }
+    /* main casual shoe & formal shoe section ends */
+
+    /* features section starts */
+    .features-section-height {
+        height: auto;
+    }
+    .features-small-img-size {
+        width: 9vh;
+    }
+    .features-content-size {
+        width: 80%;
+    }
+    .features-big-img-size {
+        width: 70%;
+    }
+    .features-details-size h3 {
+        font-size: 1.5rem;
+    }
+    /* features section starts */
+}
+
+@media screen and (max-width: 768px) {
+
+    /* header nav & brand section starts */
+    header {
+        margin-top: 88px;
+    }
+    .brand-section-height {
+        height: auto;
+    }
+    .brand-details {
+        width: 75%;
+    }
+    .brand-photo {
+        width: 100%;
+    }
+    /* header nav & brand section ends */
+
+    /* main casual shoe & formal shoe section starts */
+    .shoes-section-height {
+        height: auto;
+    }
+    .img-size {
+        height: 25vh;
+    }
+    /* main casual shoe & formal shoe section ends */
+
+    /* features section starts */
+    .features-section-height {
+        height: auto;
+    }
+    .features-big-img-size {
+        width: 70%;
+    }
+    .features-small-img-size {
+        width: 9vh;
+    }
+    .features-content-size {
+        width: 80%;
+    }
+    /* features section starts */
+}
+
+@media screen and (max-width: 576px) {
+
+    /* header nav & brand section starts */
+    header {
+        padding: 0 1rem;
+        margin-top: 88px;
+    }
+
+    nav img {
+        width: 2.5rem;
+    }
+
+    .brand-section-height {
+        height: auto;
+    }
+
+    .nav-title-color {
+        color: #A4BC46;
+    }
+    .nav-title-text-size {
+        font-size: 1rem;
+    }
+    .brand-details {
+        width: 100%;
+    }
+    .brand-photo {
+        width: 100%;
+    }
+    /* header nav & brand section ends */
+
+    /* main casual shoe & formal shoe section starts */
+    .shoes-section-height {
+        height: auto;
+    }
+    .font-family-bebas-neue {
+        font-size: 3rem;
+    }
+    .card-price-properties {
+        font-size: 2.5rem;
+    }
+    /* main casual shoe & formal shoe section ends */
+
+    /* features section starts */
+    .features-section-height {
+        height: auto;
+    }
+    .features-content-size {
+        width: 100%;
+    }
+    .features-details-size {
+        width: 100%;
+    }
+    .features-big-img-size {
+        width: 100%;
+    }
+    /* features section starts */
+}
+
